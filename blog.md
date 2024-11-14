@@ -8,7 +8,7 @@ My blogs are focused on <a href="/categories/#macros" style="font-weight:normal;
 
 <ul class="listing">
 {% for category in site.categories %}
-  <li class="listing-separator">{{ tag[0] }}</li>
+  <li class="listing-seperator">{{ tag[0] }}</li>
     {% for post in tag[1] %}
       <li class="listing-item">
         <a href="{{ post.url }}" title="{{ post.title}}">{{ post.title }}</a>
