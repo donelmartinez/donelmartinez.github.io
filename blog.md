@@ -16,15 +16,15 @@ My blogs are focused on <a href="/categories/#macros" style="font-weight:normal;
     {% endfor %}
 {% endfor %}
 
-{% for post in site.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
-  {% endif %}
-  {% for category in site.categories %}
+{% for category in site.categories %}
+  <li class="listing-seperator"> {{ category[0] }}</li>
+  {% for post in category[1] %}
+    {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+    {% if year != y %}
+      {% assign year = y %}
+      <li class="listing-seperator">{{ y }}</li>
+    {% endif %}
     <li class="listing-item">
-      {{ category[0] }}
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
