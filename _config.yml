@@ -15,7 +15,13 @@ markdown: kramdown
 
 # Other options
 permalink: blog/:year/:month/:title
-permalink: pretty
+
+collections:
+  my_collection:
+    output: true
+    permalink: /:collection/:name
+
+
 job.title: "Always learning"
 excerpt_separator: "<!--more-->"
 
