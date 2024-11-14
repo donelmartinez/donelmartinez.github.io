@@ -1,10 +1,10 @@
 # Site settings
-title: Title testing
-email: your-email@domain.com
+title: Donel's Blog
+email: donel.martinez@myna.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is the place where I can write some of my interests regarding
+  data privacy, information security, Excel macros, Artificial Intelligence,
+  and all current topics of relevance to stay up to date.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
@@ -15,7 +15,7 @@ markdown: kramdown
 
 # Other options
 permalink: blog/:year/:month/:title
-job.title: "Assistant Professor"
+job.title: "Always learning"
 excerpt_separator: "<!--more-->"
 
 # SEO stuff
