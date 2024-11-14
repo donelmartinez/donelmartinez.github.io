@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-My blogs are focused on <a href="/categories/#Macros" style="font-weight:normal;"> Macros</a>, <a href="/categories/#DiferentialPrivacy" style="font-weight:normal;"> Differential Privacy</a>, <a href="/categories/#FederatedLearning" style="font-weight:normal;"> Federated Learning</a>, <a href="/categories/#AI" style="font-weight:normal;"> Artificial Intelligence</a>, <a href="/categories/#MachineLearning" style="font-weight:normal;"> Machine Learning</a>, and general <a href="/categories/#Compliance" style="font-weight:normal;"> Privacy and Information Security Compliance</a>.
+My blogs are focused on <a href="/categories/#macros" style="font-weight:normal;"> Macros</a>, <a href="/categories/#diferentialprivacy" style="font-weight:normal;"> Differential Privacy</a>, <a href="/categories/#federatedlearning" style="font-weight:normal;"> Federated Learning</a>, <a href="/categories/#ai" style="font-weight:normal;"> Artificial Intelligence</a>, <a href="/categories/#machinelearning" style="font-weight:normal;"> Machine Learning</a>, and general <a href="/categories/#Compliance" style="font-weight:normal;"> Privacy and Information Security Compliance</a>.
 
 <ul class="listing">
 {% for post in site.posts %}
