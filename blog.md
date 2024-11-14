@@ -22,9 +22,12 @@ My blogs are focused on <a href="/categories/#macros" style="font-weight:normal;
     {% assign year = y %}
     <li class="listing-seperator">{{ y }}</li>
   {% endif %}
-  <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
+  {% for category in site.categories %}
+    <li class="listing-item">
+      {{ category[0] }}
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
 {% endfor %}
 </ul>
