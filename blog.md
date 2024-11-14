@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Macros
-permalink: /macros/
+title: Blog
+permalink: /blog/
 ---
 
 Tell us about your blog. Hopefully it's cool.
