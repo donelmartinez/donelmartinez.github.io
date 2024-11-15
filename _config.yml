@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   and all current topics of relevance to stay up to date.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
- twitter_username: jekyllrb
+# twitter_username: jekyllrb
 # github_username:  jekyll
  linkedin_username: donelmartinez
 
